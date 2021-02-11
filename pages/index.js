@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div id="home" className={styles.container}>
       <Head>
         <title>API Developer Portal Example</title>
       </Head>
