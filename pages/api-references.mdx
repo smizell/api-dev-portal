@@ -1,0 +1,19 @@
+# Render API references with Redoc and Swagger UI
+
+This example project renders an OpenAPI file with both Redoc and Swagger UI.
+This is to show how using React to create pages makes it possible to render API reference documentation with a small amount of code.
+
+You can view the references for [Redoc](/redoc) and [Swagger UI](/swagger-ui).
+
+## Using React components
+
+Both Redoc and Swagger UI provide react components that you can use to render an OpenAPI file in a Next.js app.
+Once you've placed your OpenAPI file in your `public/` directory, you can render it with Redoc with the code below.
+
+```js
+import { RedocStandalone } from 'redoc';
+
+export default function RedocPage() {
+  return <RedocStandalone specUrl="/petstore.yaml" />;
+}
+```

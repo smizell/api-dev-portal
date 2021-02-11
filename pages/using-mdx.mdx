@@ -1,0 +1,26 @@
+import { useState } from 'react';
+
+# Using MDX for Documentation
+
+MDX is a tool that lets you write React code directly in Markdown. This page is written in Markdown, but if needed, we can include React components and JavaScript directly in our Markdown.
+Below is a `Counter` component that is defined within the Markdown and then called in the Markdown.
+
+export function Counter() {
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button style={{padding: "4px"}} onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+
+<Counter />
+
+This gives you the familiarity with Markdown with the power of JavaScript together.
+
+## MDX Files
+
+Once you set up MDX to run in your project, the only step needed to use MDX is to create a file with the extension `.mdx`. If you name a file `about.mdx`, you'll be able to access it from `https://example.com/about`.

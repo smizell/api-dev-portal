@@ -7,10 +7,34 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: #07c;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.page {
+  margin: 50px auto;
+  max-width: 720px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.page nav {
+  margin-bottom: 40px;
+}
+
+.page p code {
+  padding: 0 2px;
+  background-color: #eee;
+}
+
+.page pre {
+  padding: 10px;
+  background-color: #eee;
+}
+
+.page h1 {
+  line-height: 40px;
 }
