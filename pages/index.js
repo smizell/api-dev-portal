@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="description" value="Example of using Next.js for building an API Developer Portal" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@Stephen_Mizell" />
-        <meta name="og:url" content="https://present.smizell.com/" />
+        <meta name="og:url" content="https://apidevportal.smizell.com/" />
         <meta
           name="og:title"
           content="API Developer Portal Example with Next.js"
