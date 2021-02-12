@@ -23,7 +23,7 @@ export default function Home() {
         </p>
 
         <p className={styles.description}>
-          <Link href="/about"><a>About this project</a></Link> /{' '}
+          <Link href="/about"><a>About this example</a></Link> /{' '}
           <Link href="/using-mdx"><a>Using MDX</a></Link> /{' '}
           <Link href="/api-references"><a>Rendering API reference docs</a></Link>
         </p>
