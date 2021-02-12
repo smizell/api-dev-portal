@@ -25,7 +25,8 @@ export default function Home() {
         <p className={styles.description}>
           <Link href="/about"><a>About this example</a></Link> /{' '}
           <Link href="/using-mdx"><a>Using MDX</a></Link> /{' '}
-          <Link href="/api-references"><a>Rendering API reference docs</a></Link>
+          <Link href="/api-references"><a>Rendering API reference docs</a></Link> /{' '}
+          <Link href="https://github.com/smizell/api-dev-portal"><a>View the code</a></Link>
         </p>
       </main>
 
