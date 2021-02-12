@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router';
 
 export default function Layout({ children, frontMatter }) {
+  const { asPath } = useRouter();
+
   return <div className="page">
     <>
       <Head>
@@ -12,7 +15,7 @@ export default function Layout({ children, frontMatter }) {
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@Stephen_Mizell" />
-        <meta name="og:url" content="https://apidevportal.smizell.com/" />
+        <meta name="og:url" content={`https://apidevportal.smizell.com${asPath}`} />
         <meta
           name="og:title"
           content={frontMatter.title}
