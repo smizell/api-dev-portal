@@ -7,7 +7,7 @@ export default function Home() {
     <div id="home" className={styles.container}>
       <Head>
         <title>API Developer Portal Example with Next.js</title>
-        <meta name="description" value="Example of using Next.js for building an API Developer Portal" />
+        <meta name="description" content="Example of using Next.js for building an API Developer Portal" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:creator" content="@Stephen_Mizell" />
         <meta name="og:url" content="https://apidevportal.smizell.com/" />
